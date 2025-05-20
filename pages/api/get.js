@@ -25,3 +25,4 @@ export default async function handler(req, res) {
     res.status(500).json({ error: "bi şeyler bozuldu amk" });
   }
 }
+console.log("API KEY:", process.env.key);
